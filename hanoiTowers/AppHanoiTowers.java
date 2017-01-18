@@ -6,7 +6,7 @@ package hanoiTowers;
 public class AppHanoiTowers {
 
     public static void main(String[] args) {
-        int n = 3;
+        int n = 12;
         Algorithm algo = new Algorithm();
         int moves =  algo.solveHanoiTowers(n, 'A', 'B', 'C');
         System.out.println("Done in " + moves + ", moves");
